@@ -1,0 +1,24 @@
+{
+  "artifact": "adult_income_final_pipeline.joblib",
+  "model": "Logistic Regression",
+  "threshold": 0.6600000000000004,
+  "training_rows": 26048,
+  "test_rows": 6513,
+  "random_state": 42,
+  "test_metrics": {
+    "accuracy": 0.8407799785045295,
+    "precision": 0.6594724220623501,
+    "recall": 0.7010834926704907,
+    "f1": 0.6796416434970651,
+    "roc_auc": 0.9016294158050084,
+    "pr_auc": 0.7596866351624949,
+    "brier": 0.13082778681315294
+  },
+  "confusion_matrix": {
+    "TN": 4376,
+    "FP": 568,
+    "FN": 469,
+    "TP": 1100
+  },
+  "selection_rule": "Highest 5-fold CV F1 on training data; threshold selected on development set; test used only for final evaluation."
+}
