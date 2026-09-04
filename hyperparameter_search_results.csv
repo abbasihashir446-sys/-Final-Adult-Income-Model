@@ -1,0 +1,6 @@
+model,rank,mean_cv_f1,std_cv_f1,params
+Logistic Regression,1,0.6810503576559802,,"C=1.5702970884, class_weight=balanced, max_iter=2000"
+Random Forest,1,0.678389167367027,0.006333825454920087,"{'classifier__n_estimators': 180, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': 12}"
+Random Forest,2,0.6657371547303301,0.00395095159986586,"{'classifier__n_estimators': 180, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': None}"
+Random Forest,3,0.6638722954538171,0.004400903845815207,"{'classifier__n_estimators': 120, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': None}"
+Gradient Boosting,1,0.6792241380048922,0.006416291199975752,"n_estimators=120, learning_rate=0.08, max_depth=3, min_samples_leaf=2"
